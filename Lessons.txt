@@ -1,0 +1,18 @@
+- On opening files - 
+
+when you have to open files in python make sure to copy the path and add a r before the citation marks with the file name 
+this makes it possible to open the path as it is and not make any mistakes when reading the file name
+
+
+- on printing from file by using a loop - 
+you can use a loop to print the first line of a file 
+the program will be something like this ¨
+
+for line in filename:
+    matrix.append(line)
+
+filename.close()
+
+print(matrix)
+
+the .close() method make sure to close the file before it is saved
